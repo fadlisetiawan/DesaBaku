@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DesaBaKu</string>
+    <string name="masuk">Masuk</string>
+    <string name="password">Password</string>
+    <string name="masuk_ke_desabaku">Masuk ke DesaBaku</string>
+    <string name="email">Email</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="daftar_akun_baru">Daftar Akun Baru</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="tempat_lahir">Tempat Lahir</string>
+    <string name="username">Username</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nik">NIK</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="alamat">Alamat</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="daftar">Daftar</string>
+    <string name="belum_punya_akun_daftar_disini">Belum punya akun? Daftar disini</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="desabaku">DesaBAKU</string>
+    <string name="baca_buku">Baca Buku</string>
+    <string name="diskusi_buku">Diskusi Buku</string>
+    <string name="title_activity_kategori_tab">KategoriTab</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_tab_layout">TabLayout</string>
+</resources>

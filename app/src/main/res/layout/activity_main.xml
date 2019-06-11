@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgabuputih"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginTitle"
+            android:text="DESABAKU"
+            android:textSize="34sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:columnCount="1"
+        android:rowCount="1"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_weight="6"
+        android:background="#ffffff"
+        android:padding="14dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        >
+
+
+        <LinearLayout
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="@string/masuk_ke_desabaku"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="5dp"
+                android:autofillHints="" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:layout_marginBottom="10dp"
+                android:autofillHints="" />
+
+            <Button
+                android:id="@+id/tombolLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/masuk"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/daftardisini"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belum punya akun? Daftar disini"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </GridLayout>
+
+
+
+</LinearLayout>
